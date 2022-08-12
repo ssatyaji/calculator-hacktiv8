@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center-screen">
+        <div class="grid-container calculator-keys">
+            <div class="grid-item prev-operand" id="item-screen">0</div>
+            <!-- <div class="grid-item curr-operand" id="item-screen">SCREEN 2</div> -->
+            <div class="grid-item data-all-clear" id="clear" data-ac="AC">AC</div>
+            <div class="grid-item data-delete" id="delete" data-ce="CE">CE</div>
+            <div class="grid-item data-operation" data-opr="/">/</div>
+            <div class="grid-item data-operation" data-opr="*">*</div>
+            <div class="grid-item data-number" data-num="7">7</div>
+            <div class="grid-item data-number" data-num="8">8</div>
+            <div class="grid-item data-number" data-num="9">9</div>
+            <div class="grid-item data-operation" data-opr="-">-</div>
+            <div class="grid-item data-number" data-num="4">4</div>
+            <div class="grid-item data-number" data-num="5">5</div>
+            <div class="grid-item data-number" data-num="6">6</div>
+            <div class="grid-item data-operation" data-opr="+">+</div>
+            <div class="grid-item data-number" data-num="1">1</div>
+            <div class="grid-item data-number" data-num="2">2</div>
+            <div class="grid-item data-number" data-num="3">3</div>
+            <div class="grid-item data-number" id="item-zero" data-num="0">0</div>
+            <div class="grid-item data-number" data-num=".">.</div>
+            <div class="grid-item data-equals" id="item-equals" data-result="">=</div>
+        </div>
+    </div>
+</body>
+
+<script src="./calculator.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
